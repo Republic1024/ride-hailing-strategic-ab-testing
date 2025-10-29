@@ -16,6 +16,23 @@ The rideshare platform needed to optimize its coupon subsidy strategy to balance
 - Cost efficiency (ROI optimization)
 - Conversion rate improvement
 
+
+
+## 📈 Key Results
+
+### Statistical Significance Achieved
+| Metric | T-statistic | P-value | Impact |
+|--------|------------|---------|---------|
+| Requests | 7.41 | 7.19×10⁻¹⁰ | ✅ Highly Significant |
+| GMV | 7.35 | 9.11×10⁻¹⁰ | ✅ Highly Significant |
+| Trips | 7.31 | 1.05×10⁻⁰⁹ | ✅ Highly Significant |
+| Canceled Requests | 8.08 | 5.82×10⁻¹¹ | ✅ Highly Significant |
+
+### Optimal Subsidy Discovery
+- **Optimal Range**: ¥1.018 - ¥1.035 per trip
+- **Performance**: ¥308.53 GMV per trip (stable high revenue)
+- **ROI Insight**: Balances customer incentive with profitability
+
 ## 🔬 Methodology
 
 ### Phase 1: Initial A/B Test
@@ -35,21 +52,6 @@ The rideshare platform needed to optimize its coupon subsidy strategy to balance
 - **Technique**: Binning analysis (20 segments)
 - **Metric**: GMV per Trip optimization
 - **Discovery**: Non-linear relationship between subsidy and revenue
-
-## 📈 Key Results
-
-### Statistical Significance Achieved
-| Metric | T-statistic | P-value | Impact |
-|--------|------------|---------|---------|
-| Requests | 7.41 | 7.19×10⁻¹⁰ | ✅ Highly Significant |
-| GMV | 7.35 | 9.11×10⁻¹⁰ | ✅ Highly Significant |
-| Trips | 7.31 | 1.05×10⁻⁰⁹ | ✅ Highly Significant |
-| Canceled Requests | 8.08 | 5.82×10⁻¹¹ | ✅ Highly Significant |
-
-### Optimal Subsidy Discovery
-- **Optimal Range**: ¥1.018 - ¥1.035 per trip
-- **Performance**: ¥308.53 GMV per trip (stable high revenue)
-- **ROI Insight**: Balances customer incentive with profitability
 
 ## 🛠 Technical Implementation
 
@@ -97,7 +99,7 @@ pip install pandas numpy scipy matplotlib seaborn
 
 3. **Run the analysis**
 ```bash
-jupyter notebook main.ipynb
+main.ipynb
 ```
 
 ## 💡 Key Insights & Business Value
@@ -113,7 +115,6 @@ jupyter notebook main.ipynb
 Shows strong positive correlation between core business metrics and negative correlation with conversion rate, suggesting volume-quality tradeoff.
 
 ### GMV per Trip Optimization Curve
-![GMV Optimization](outputs/gmv_vs_coupon_per_trip.png)
 *Non-linear relationship between subsidy level and revenue per trip*
 
 ## 🏆 Skills Demonstrated
