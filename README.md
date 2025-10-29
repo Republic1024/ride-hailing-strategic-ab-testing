@@ -7,7 +7,6 @@ This project demonstrates a sophisticated A/B testing framework for optimizing r
 **Key Achievement**: Transformed a failed A/B test into actionable insights by discovering hidden customer segments, achieving p-values < 7×10⁻¹⁰ and identifying the optimal subsidy range that maximizes ROI.
 
 ![img.png](img.png)
-![img_1.png](img_1.png)
 ## 🎯 Business Problem
 
 The rideshare platform needed to optimize its coupon subsidy strategy to balance:
