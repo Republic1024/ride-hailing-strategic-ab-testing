@@ -6,7 +6,7 @@ This project demonstrates a sophisticated A/B testing framework for optimizing r
 
 **Key Achievement**: Transformed a failed A/B test into actionable insights by discovering hidden customer segments, achieving p-values < 7×10⁻¹⁰ and identifying the optimal subsidy range that maximizes ROI.
 
-![img.png](img.png)
+![gmv_vs_coupon_per_trip.png](gmv_vs_coupon_per_trip.png)
 ## 🎯 Business Problem
 
 The rideshare platform needed to optimize its coupon subsidy strategy to balance:
@@ -109,6 +109,8 @@ main.ipynb
 4. **Data-Driven Decision**: Identified 15% cost reduction opportunity while maintaining revenue
 
 ## 📊 Visualizations
+
+![comprehensive_distribution_analysis.png](comprehensive_distribution_analysis.png)
 
 ### Correlation Matrix
 Shows strong positive correlation between core business metrics and negative correlation with conversion rate, suggesting volume-quality tradeoff.
