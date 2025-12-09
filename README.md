@@ -6,7 +6,7 @@ This project demonstrates a sophisticated A/B testing framework for optimizing r
 
 **Key Achievement**: Transformed a failed A/B test into actionable insights by discovering hidden customer segments, achieving p-values < 7×10⁻¹⁰ and identifying the optimal subsidy range that maximizes ROI.
 
-![image-20251210030459255](./assets/image-20251210030459255.png)
+![Gemini_Generated_Image_fc27c2fc27c2fc27](./assets/Gemini_Generated_Image_fc27c2fc27c2fc27.png)
 
 ![gmv_vs_coupon_per_trip](./assets/gmv_vs_coupon_per_trip-1765307532297-4.png)
 ## 🎯 Business Problem
