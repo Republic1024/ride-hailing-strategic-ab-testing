@@ -8,7 +8,7 @@ This project demonstrates a sophisticated A/B testing framework for optimizing r
 
 ![image-20251210030459255](./assets/image-20251210030459255.png)
 
-![gmv_vs_coupon_per_trip.png](gmv_vs_coupon_per_trip.png)
+![gmv_vs_coupon_per_trip](./assets/gmv_vs_coupon_per_trip-1765307532297-4.png)
 ## 🎯 Business Problem
 
 The rideshare platform needed to optimize its coupon subsidy strategy to balance:
@@ -57,7 +57,7 @@ The rideshare platform needed to optimize its coupon subsidy strategy to balance
 ## 🛠 Technical Implementation
 
 ### Technologies Used
-- **Python 3.x**
+- **Python 3.9.12**
 - **Libraries**: pandas, numpy, scipy, matplotlib, seaborn
 - **Statistical Methods**: T-tests, Levene's test, correlation analysis
 
@@ -118,7 +118,8 @@ main.ipynb
 Shows strong positive correlation between core business metrics and negative correlation with conversion rate, suggesting volume-quality tradeoff.
 
 ### GMV per Trip Optimization Curve
-*Non-linear relationship between subsidy level and revenue per trip*
+
+![gmv_vs_coupon_per_trip](./assets/gmv_vs_coupon_per_trip-1765307527148-2.png)
 
 ## 🏆 Skills Demonstrated
 
